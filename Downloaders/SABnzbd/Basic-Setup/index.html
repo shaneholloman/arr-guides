@@ -3807,19 +3807,15 @@
 
 
 <h1 id="sabnzbd-basic-setup">SABnzbd - Basic Setup<a class="headerlink" href="#sabnzbd-basic-setup" title="Permanent link"></a></h1>
-<!-- BEGIN INCLUDE ../../../includes/downloaders/basic-setup.md -->
 <p>This basic example is based on the use of docker images</p>
 <div class="admonition tip">
 <p>Keep in mind the path are setup so it works with hardlinks and instant moves.</p>
 <p>More info <a href="/File-and-Folder-Structure/Hardlinks-and-Instant-Moves/" rel="noopener noreferrer" target="_blank">HERE</a></p>
 </div>
-<!-- BEGIN INCLUDE ../file-and-folder-structure/bad-path-suggestion.md -->
 <h3 id="bad-path-suggestion">Bad path suggestion<a class="headerlink" href="#bad-path-suggestion" title="Permanent link"></a></h3>
 <div class="admonition warning">
 <p class="admonition-title">The default path setup suggested by some docker developers that encourages people to use mounts like <code>/movies</code>, <code>/tv</code>, <code>/books</code> or <code>/downloads</code> is very suboptimal and it makes them look like two or three file systems, even if they aren’t (<em>Because of how Docker’s volumes work</em>). It is the easiest way to get started. While easy to use, it has a major drawback. Mainly losing the ability to hardlink or instant move, resulting in a slower and more I/O intensive copy + delete is used.</p>
 </div>
-<!-- END INCLUDE -->
-
 <div class="admonition warning">
 <p>But you're able to change this, by not using the pre-defined/recommended paths like:</p>
 <ul>
@@ -3828,8 +3824,6 @@
 <li><code>/tv</code> =&gt; <code>/data/media/tv</code></li>
 </ul>
 </div>
-<!-- END INCLUDE -->
-
 <hr />
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -3849,7 +3843,6 @@
 <p><code>Settings</code> =&gt; <code>Folders</code> =&gt; <code>Users Folders</code>
 <a class="glightbox" href="../images/sabnzbd-folders.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="!Folders: User Folders" src="../images/sabnzbd-folders.png" /></a></p>
 <p>Here you setup your download path/location.</p>
-<!-- BEGIN INCLUDE ../../../includes/downloaders/warning-path-location.md -->
 <div class="admonition warning">
 <p class="admonition-title">ATTENTION</p>
 <ol>
@@ -3861,8 +3854,6 @@
 </ol>
 <p><img alt="‼" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/203c.svg" title=":bangbang:" /> <strong><strong>Your Download and Media Library should be **NEVER</strong> the same locations**</strong> <img alt="‼" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/203c.svg" title=":bangbang:" /></p>
 </div>
-<!-- END INCLUDE -->
-
 <h3 id="system-folders">System Folders<a class="headerlink" href="#system-folders" title="Permanent link"></a></h3>
 <p><code>Settings</code> =&gt; <code>Folders</code> =&gt; <code>System Folders</code>
 <a class="glightbox" href="../images/sabnzbd-folders-system-folders.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="!Folders: System Folders" src="../images/sabnzbd-folders-system-folders.png" /></a></p>
