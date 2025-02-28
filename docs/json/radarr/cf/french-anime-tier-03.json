@@ -1,153 +1,128 @@
 {
-  "trash_id": "4fd5528a3a8024e6b49f9c67053ea5f3",
+  "trash_id": "9d2a63eda874b34e06e7a8cbea7ea639",
   "trash_scores": {
-    "default": 300
+    "default": 1550,
+    "french-anime-multi": 1550,
+    "french-anime-vostfr": 1550
   },
-  "name": "Anime Web Tier 04 (Official Subs)",
+  "name": "FR Anime Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "WEBDL",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 3
-      }
-    },
-    {
-      "name": "WEBRIP",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 4
-      }
-    },
-    {
-      "name": "WEB",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 1
-      }
-    },
-    {
-      "name": "BlueLobster",
+      "name": "BLV",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(BlueLobster)\\b"
+        "value": "\\b(BLV)\\b"
       }
     },
     {
-      "name": "Erai-Raws",
+      "name": "D3T3R10R1TY",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Erai-raws)\\b"
+        "value": "\\b(D3T3R10R1TY)\\b"
       }
     },
     {
-      "name": "GST",
+      "name": "Galactic",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(GST)\\b"
+        "value": "\\b(Galactic)\\b"
       }
     },
     {
-      "name": "HorribleRips",
+      "name": "HANAMi",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(HorribleRips)\\b"
+        "value": "\\b(HANAMi)\\b"
       }
     },
     {
-      "name": "HorribleSubs",
+      "name": "kazuizui",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(HorribleSubs)\\b"
+        "value": "\\b(kazui(zui)?)\\b"
       }
     },
     {
-      "name": "KAN3D2M",
+      "name": "KHAYA",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(KAN3D2M)\\b"
+        "value": "\\b(KHAYA)\\b"
       }
     },
     {
-      "name": "KiyoshiStar",
+      "name": "KushEnthusiast",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(KS|KiyoshiStar)\\b"
+        "value": "\\b(KushEnthusiast)\\b"
       }
     },
     {
-      "name": "Lia",
+      "name": "matheousse",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[Lia\\]|-Lia\\b"
+        "value": "\\b(matheousse)\\b"
       }
     },
     {
-      "name": "NanDesuKa",
+      "name": "Monkey-D.Lulu",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NanDesuKa)\\b"
+        "value": "\\b(Monkey[ .-]?D[ .-]?Lulu)\\b"
       }
     },
     {
-      "name": "Some-Stuffs",
+      "name": "NeoSG",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Some-Stuffs)\\b"
+        "value": "\\b(NeoSG)\\b"
       }
     },
     {
-      "name": "URANIME",
+      "name": "RONiN",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(URANIME)\\b"
+        "value": "\\b(RONiN)\\b"
       }
     },
     {
-      "name": "VARYG",
+      "name": "TheFantastics",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(VARYG)\\b"
+        "value": "\\b(TheFantastics)\\b"
       }
     },
     {
-      "name": "ZigZag",
+      "name": "TTN",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[ZigZag\\]|-ZigZab\b"
+        "value": "\\b(TTN)\\b"
       }
     }
   ]

@@ -168,7 +168,7 @@ Use the following main settings in your profile.
 
 !!! tip
 
-    You might want to combine the `WEB-720p/1080p` into a single Quality Profile if you, for example, want to be able to upgrade from 1080p to 4K/2160p when and if it becomes available after the 1080p release is made, and perhaps enable the `HDTV-720p/1080p` and/or `Bluray-720p/1080p` for some older shows, or even the `Bluray-2160p` and `Bluray-2160p Remux` quality source because you prefer HD audio. Depending on your preferences, you can put them above or below the `WEB-2160p`.
+    You might want to combine the `WEB-720p/1080p` into a single Quality Profile if you, for example, want to be able to upgrade from 1080p to 4K/2160p when and if it becomes available after the 1080p release is made, and perhaps enable the `HDTV-720p/1080p` and/or `Bluray-720p/1080p` for some older shows, or even the `Bluray-2160p` quality source because you prefer HD audio. Depending on your preferences, you can put them above or below the `WEB-2160p`.
 
     ![Alternative Option](images/cf-profile-alternative-web2160.png)
 
@@ -234,6 +234,10 @@ The following custom format groups should be combined with the Quality Profiles 
     ![!cf-mm-propers-repacks-disable](images/cf-mm-propers-repacks-disable.png)
 
     This way you make sure the Custom Format preferences will be used instead.
+
+### How Does Custom Format Scoring Work?
+
+{! include-markdown "../../includes/shared/custom-format-basic-scoring-information.md" !}
 
 ### Custom Formats to avoid certain releases
 

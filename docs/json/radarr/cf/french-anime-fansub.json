@@ -1,144 +1,110 @@
 {
-  "trash_id": "9edaeee9ea3bcd585da9b7c0ac3fc54f",
+  "trash_id": "eb1e434d8e46cb3f728c79f8e4400bfd",
   "trash_scores": {
-    "default": 300
+    "default": 1450,
+    "french-anime-multi": 1450,
+    "french-anime-vostfr": 1450
   },
-  "name": "Anime Web Tier 04 (Official Subs)",
+  "name": "FR Anime FanSub",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "WEBDL",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 7
-      }
-    },
-    {
-      "name": "WEBRIP",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 8
-      }
-    },
-    {
-      "name": "BlueLobster",
+      "name": "Anime-Heart",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(BlueLobster)\\b"
+        "value": "\\b(Anime[ .-]?Heart)\\b"
       }
     },
     {
-      "name": "Erai-Raws",
+      "name": "Kaerizaki-Fansub",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Erai-raws)\\b"
+        "value": "\\b(Kaerizaki[ .-]?Fansub)\\b"
       }
     },
     {
-      "name": "GST",
+      "name": "Natsumi-no-Sekai",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(GST)\\b"
+        "value": "\\b(Natsumi[ .-]?no[ .-]?Sekai)\\b"
       }
     },
     {
-      "name": "HorribleRips",
+      "name": "NekoYu'",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(HorribleRips)\\b"
+        "value": "\\b(NekoYu\\'?)\\b"
       }
     },
     {
-      "name": "HorribleSubs",
+      "name": "Onii-ChanSub",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(HorribleSubs)\\b"
+        "value": "\\b(Onii[ .-]?ChanSub)\\b"
       }
     },
     {
-      "name": "KAN3D2M",
+      "name": "Owlolf",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(KAN3D2M)\\b"
+        "value": "\\b(Owlolf)\\b"
       }
     },
     {
-      "name": "KiyoshiStar",
+      "name": "Pikari-Teshima",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(KS|KiyoshiStar)\\b"
+        "value": "\\b(Pikari[ .-]?Teshima)\\b"
       }
     },
     {
-      "name": "Lia",
+      "name": "Seimeisen",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[Lia\\]|-Lia\\b"
+        "value": "\\b(Seimeisen)\\b"
       }
     },
     {
-      "name": "NanDesuKa",
+      "name": "Team Arcedo",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NanDesuKa)\\b"
+        "value": "\\b((Team[ .-])?Arcedo)\\b"
       }
     },
     {
-      "name": "Some-Stuffs",
+      "name": "Yarashii",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Some-Stuffs)\\b"
+        "value": "\\b(Yarashii)\\b"
       }
     },
     {
-      "name": "URANIME",
+      "name": "Yangire-Raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(URANIME)\\b"
-      }
-    },
-    {
-      "name": "VARYG",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(VARYG)\\b"
-      }
-    },
-    {
-      "name": "ZigZag",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\[ZigZag\\]|-ZigZab\b"
+        "value": "\\b(Yangire[ .-]?Raws)\\b"
       }
     }
   ]
